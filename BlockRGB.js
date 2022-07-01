@@ -6,8 +6,10 @@ export default function BlockRGB(props) {
    <View
      style={{
        backgroundColor: `rgb(${props.red}, ${props.green}, ${props.blue})`,
-       padding: 60,
+       padding: 25,
        width: "100%",
+       justifyContent: "center",
+       alignItems: "center",
      }}
    ></View>
  );
